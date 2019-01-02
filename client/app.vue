@@ -10,7 +10,7 @@
     <!-- <router-link to="/app/123">app123</router-link>
     <router-link to="/app/456">app456</router-link>
     <router-link to="/login">login</router-link> -->
-    <!-- <todo></todo> -->
+    <todo></todo>
     <!-- <tabs>
       <tab lable="text">
         <span slot="label"></span>
@@ -43,7 +43,7 @@ import {
 import Header from './layout/header.vue'
 import Footer from './layout/footer.jsx'
 import Loading from './components/loading/loading.vue'
-// import Todo from './views/todo/todo.vue'
+import Todo from './views/todo/todo.vue'
 
 // console.log(Header.__docs)
 
@@ -54,8 +54,8 @@ export default {
   components: {
     Header,
     Footer,
-    Loading
-    // Todo
+    Loading,
+    Todo
   },
   mounted () {
     // console.log(this.$store)

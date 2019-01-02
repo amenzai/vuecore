@@ -16,7 +16,7 @@ export default () => {
     actions
     // plugins: [
     //   (store) => {
-          //  store.subscribe() // 这些类似的 API 就可以在这里写
+    //  store.subscribe() // 这些类似的 API 就可以在这里写
     //     console.log('my plugin invoked') // vue 初始化时调用
     //   }
     // ]

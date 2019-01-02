@@ -1,7 +1,7 @@
 {
-  "name": "vue-ssr-tech",
+  "name": "vuecore",
   "version": "1.0.0",
-  "description": "",
+  "description": "a vuecore project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,7 +19,7 @@
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
     "start": "cross-env NODE_ENV=production node server/server.js"
   },
-  "author": "",
+  "author": "amenzai",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.1",
@@ -33,7 +33,7 @@
     "vue": "2.5.13",
     "vue-meta": "^1.4.3",
     "vue-router": "^3.0.1",
-    "vue-server-renderer": "^2.5.13",
+    "vue-server-renderer": "2.5.13",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
